@@ -25,4 +25,10 @@ public class EmployeeService {
 		return repo.save(emp);
 	}
 
+	public void updateEmployee(Employee emp) {
+
+		repo.save(emp);
+
+	}
+
 }
